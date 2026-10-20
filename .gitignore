@@ -1,0 +1,35 @@
+# ── Environment ──────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Backend (Laravel) ────────────────────────────────────────
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/storage/logs/*.log
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/storage/cacert.pem
+backend/database/database.sqlite
+backend/public/hot
+backend/public/storage
+backend/.phpunit.result.cache
+
+# ── Frontend (Next.js) ───────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.*.local
+
+# ── IDE & OS ─────────────────────────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
